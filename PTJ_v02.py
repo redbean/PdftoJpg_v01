@@ -21,7 +21,7 @@ def main(argv):
                         sys.exit()
                 elif opt in ("-i", "--input"):
                         path = arg
-                elif opt in ("-d", "--input"):
+                elif opt in ("-d", "--dpi"):
                         dpi = arg
         for i in files:
                 if i[-3:] == "pdf":
